@@ -4,7 +4,6 @@ import com.tech.selenium.driverutil.DriverFactory;
 import com.tech.selenium.pageobjects.GoogleSearchPage;
 import com.tech.selenium.pageobjects.SearchResultsPage;
 import cucumber.api.Scenario;
-import cucumber.api.java.en.Given;
 import cucumber.api.java8.En;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
