@@ -11,6 +11,8 @@
     <name>Selenium Cucumber Junit Template</name>
 
     <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
         <selenium.version>3.141.59</selenium.version>
         <cucumber.version>4.2.2</cucumber.version>
         <webdrivermanager.version>3.2.0</webdrivermanager.version>

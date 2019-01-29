@@ -26,3 +26,10 @@ dependencies {
     testCompile "io.cucumber:cucumber-java8:${cucumberversion}"
     testCompile "io.cucumber:cucumber-junit:${cucumberversion}"
 }
+
+test {
+    systemProperties System.properties
+    dependsOn 'cleanTest'
+}
+
+gradle.startParameter.continueOnFailure = true
